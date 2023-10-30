@@ -118,58 +118,58 @@ numeric_data.info()
 plt.figure(figsize=(10,8))
 sns.heatmap(data.corr(numeric_only=True),annot=True)
 ```
-![Image](N1.PNG)
+![Image](N1.png)
 
 
 ``` bash
 plt.figure(figsize=(20, 10))
 sns.displot(data.age, bins=40)
 ```
-![Image](N2.PNG)
+![Image](N2.png)
 
 ``` bash
 sns.kdeplot(data.age)
 ```
-![Image](N3.PNG)
+![Image](N3.png)
 
 ``` bash
 plt.figure(figsize=(20, 10))
 sns.displot(data.bilirubin, bins=40)
 ```
-![Image](N4.PNG)
+![Image](N4.png)
 
 ``` bash
 sns.kdeplot(data.bilirubin)
 ```
-![Image](N5.PNG)
+![Image](N5.png)
 
 ``` bash
 plt.figure(figsize=(20, 10))
 sns.displot(data.sgot, bins=40)
 ```
-![Image](N6.PNG)
+![Image](N6.png)
 
 ``` bash
 sns.kdeplot(data.sgot)
 ```
-![Image](N7.PNG)
+![Image](N7.png)
 
 ``` bash
 plt.figure(figsize=(20, 10))
 sns.displot(data.alk_phosphate, bins=40)
 ```
-![Image](N8.PNG)
+![Image](N8.png)
 
 ``` bash
 sns.kdeplot(data.alk_phosphate)
 ```
-![Image](N9.PNG)
+![Image](N9.png)
 
 ``` bash
 plt.figure(figsize=(20, 10))
 data['sex'].value_counts().plot(kind="bar", color='blue', title='Gender Distribution')
 ```
-![Image](N10.PNG)
+![Image](N10.png)
 
 ``` bash
 data['class'].value_counts()
@@ -330,6 +330,6 @@ n
  X n$$
 
 ## Deployment
+https://hepatitis-data-guntugjp7pevhiojanvtgi.streamlit.app/
 
-
-![Image](N11.PNG)
+![Image](N11.png)
